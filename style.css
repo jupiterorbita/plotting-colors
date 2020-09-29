@@ -1,0 +1,62 @@
+/* * {
+  outline: 1px dotted red;
+} */
+
+div.mainbox{
+  background-color: lightgray;
+  min-height: 860px;
+  width: 900px;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+  div.red_box{
+    background-color: red;
+    display: inline-block;
+    border: 5px solid black;
+    width: 410px;
+    height: 180px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  div.blue{
+    background-color: blue;
+    width: 853px;
+    height: 180px;
+    margin: 0 auto;
+    border: 5px solid black;
+    margin-top: 20px;
+  }
+
+  div.yellow{
+    background-color: yellow;
+    border: 5px solid black;
+    display: inline-block;
+    vertical-align: top;
+    width: 261px;
+    height: 180px;
+    margin: 20px 0 0 20px;
+  }
+
+  div.green {
+    background-color: green;
+    border: 5px solid black;
+    width: 853px;
+    min-height: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 17px;
+  }
+
+    div.purple{
+      background-color: purple;
+      border: 5px solid black;
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      margin: 15px 0 10px 15px;
+    }
+
+    div.green :nth-child(2) {
+      margin-left: 495px;
+    }
